@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container">
+    <h1>Weather</h1>
+    <div class="input">
+        <input  id="city-input" type="text" placeholder="Search city">
+    </div>
+    <br>
+   <div class="center-btn">
+    <button id="searchBtn">Search</button>
+   </div>
+    <div class="result">
+        <div class="city-name" id="city-name">----</div>
+        <div class="weather-properties">
+            <h3 id="skyType">----</h3>
+            <div class="temp-results">
+                <ul>
+                    <li>Temp: <span id="temp">----</span></li>
+                    <li>Min Temp: <span id="min-temp">----</span></li>
+                    <li>Max Temp: <span id="max-temp">----</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   </div>
+</body>
+<script src="script.js"></script>
+</html>
